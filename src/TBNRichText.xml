@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="tbn.tbnrichtext.TBNRichText" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>TBNRich Text</name>
+    <description>My widget description</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOcSURBVEiJrZVdaNZlGMZ/9/M8jv/e/8J2UmgiERTUibmpTV0lpK1MYSDq0NedRCeyJWQURBAdZgqZpud+gBpKBDmWWPkxc1+RQiuixHSb9oFDt/+7123PfXfw7u0onB+7Dp/rfq7747ofHlmy92KvGDUAOpp1DXW1/+iVnepYZkbOzB8Vie9K9DvU6UoAcdaG8ZaZ/0gkrjGTzKuc1qBvVi9qeNZVposooTdMit8ATprSJ8ZZ4Eqc4BsfCCOWXk/t1pF0LA4UE04AJAX6RxKO3E7jtSRz7aY6Ls76xfjclGvAH8BLQK0s3XPRwA53bJ7XxDRi6Z4Lh0DWhzg63C0ifWVi8LXnGwxtQuQvF2X7rLYzf99Pgjha+Bm0Owx1nuh28B3A4OolLxv6nkS24nhKnR3vqa1dsqC3d3zX/v1bRGTTVMIGR1rz+W03O9u/VXgkBOMz4EqJdRtFbevs4x09QM/Aqvrlj87KzQe6Wjdt2gnsvNsOnPGDg3/CBPKiODsJ/GpmM6PZUDlIhBteqQbYtW/fAvG+ZurZxAstzc2d0THbjBeCCDmvhP8ye/fFwKr62wBmzBFKm+NDSNWseurSXRWAV0KEXDBzx7I0XivzGrVxbtu53wEGV9dvx0rnmzdsOAWcmno4JWQpl5IixwIS384V3SHgzP9XFA3gXk3OFd3CqNoUXPSfVI7GAQCPvT+76rHL5eCJCd2bVFX8CXCvJldm2luo8NeD+vjqcAVfA78c3djysJm9vruxEYAvJ4N3N75xt7qY2U+t+XzHcAVzXdAVTkSsTKqq3eny/SCAtT80Rj9Aaz7fAXRMh3CSS6+OjWXtwYwto2nJ5F0HDrwjsO5BhMsmT4yP1pjRFMTxcSHR65MdbAO2TUcHhUS7kyJXAypr0szagL5PDx5c7qD2gZTNelry+ZNpxhMRXgmGZap+HMDFOIz3Q1Np3BGqIwDRMWFGIfjozogrveSW5uZOoPOBEkzCK4PA6RC9bnZwGDg9nSarUKOwXup2nOsC+er81sUfTkflZdTt+P4DxFYGX1m1EOzSdIoD+Mrc0yCLJv/k0qcfs6zvZnf7WWecH1fmOOdmjFD1W8qtxVVFzhcTHgdIilweSai7nXIuydyTqjo+w9GvQt3MhQ31Pk2fAZYD1QHopbSaa8VZlwmzMAZ9YJmZ5lLLRkRYV6jwVxVdgZgVKnybSFyXFLmEaIM4ycBOmbBWPPOA5wAwev4F53i1xl29qqcAAAAASUVORK5CYII=</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="content" type="attribute" required="true" onChange="onChange">
+                <caption>content</caption>
+                <description>Inside text</description>
+                <attributeTypes>
+		            <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="onChange" type="action">
+	            <caption>On change</caption>
+	            <description/>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
