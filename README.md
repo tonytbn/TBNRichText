@@ -8,6 +8,8 @@ Emotion icon, font, link and video
 
 ## Usage
 
-npm install npm run build
+npm install
+
+npm run build
 
 then take mpk file in dist folder to mendix widget folder
